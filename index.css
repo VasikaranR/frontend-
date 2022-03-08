@@ -1,0 +1,35 @@
+table,th,td{
+   border:1px solid;
+   text-align:centre;
+   table-color:
+   
+}
+body{
+  text-align:center;
+  background-color:#F0FFC2;
+  background-image: url("nature.jpg");
+  
+}
+.centre{
+   margin-left:auto;
+   margin-right:auto;
+}
+th:hover {background-color: gold;}
+
+.register{
+       margin-left:auto;
+       margin-right:auto;
+}
+#register-centre{
+  text-align:center;
+}
+.centre-two{
+   margin-left:auto;
+   margin-right:auto;
+}
+
+#slider 
+{
+	-webkit-animation: slide-animation 20s infinite;
+}
+
