@@ -1,77 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title> the web page</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="index.css">
-  <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="login.js" ></script>
+    <title>a simple form</title>
 </head>
 <body>
-
-<div="slider">
-<h1>Thai สวัสดี</h1>
-</div>
-<hr></hr>
-<centre>
-<p>sawadee - good morning, good night,hello,greetings</p><br>
-<p>sawadee krub - if you are a male you should say sawadee krub</p><br>
-<p>sawadee kha  - if you are a female you should say sawadee kha </p><br>
-</centre>
-<hr></hr>
-  <table style="width=100%" class="centre">
-     <tr>
-       <th>course</th>
-       <th>type</th>physics,chemistry
-     </tr>
-     <tr>
-      <td>bachelors in literature</td>
-      <td>thai,chinese,japanese</td>
-    </tr>
-    <tr>
-      <td>science</td>
-      <td>biology,physics,chemistry</td>
-    </tr>
-  </table>
-<hr></hr>
-<form>
-    <label> Register Form</label id="register-centre">
-  <table style ="width=100%" class="centre-two">
-   <tr>
-     <td>
-     <label>NAME:</label>
-     </td>
-     <td>
-     <input type="text" placeholder="enter your name ">
-     </td>
-   </tr>
-   <tr>
-     <td>
-     <label>AGE:</lable>
-     </td>
-     <td>
-     <input type="date" placeholder="select your date of birth ">
-     </td>
-   </tr>
-   <tr>
-     <td>
-     <label>EMAIL:</lable>
-     </td>
-     <td>
-     <input type="email" placeholder="enter your email id ">
-     </td>
-   </tr>
-   <tr>
-     <td> 	
-     <label>PASSWORD:</lable>
-     </td>
-     <td>
-     <input type="PASSWORD" placeholder="enter your password ">
-     </td>
-   </tr>
-  </table>
-   <button onclick="myfunction()">SUBMIT</button> 
-</form>
-
-
+    <div class="formCenter">
+     <form>
+         <label>Name</label>
+         <input type="text" placeholder="enter name"id="name" value=""><br>
+         <br>
+         <label>Age</label>
+         <input type="number" placeholder="enter age "id="age" value=""><br>
+         <br>
+         <label>Password</label>
+         <input type="password" placeholder="enter password"id="password" value=""><br>
+         <br>
+         <input type="button" value="submit" onclick="validate()"> 
+     </form>
+    </div>
 </body>
 </html>
