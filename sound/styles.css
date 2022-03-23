@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-color: #39AEA9;
+    margin-top: 200px;
+}
+.sound{
+    background-color: #A2D5AB;
+    position: relative;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 100px;
+}
+
+.drum{
+    background-color: #E5EFC1;
+    border-radius: 12px;
+    padding: 2%;
+}
