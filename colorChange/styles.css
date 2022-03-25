@@ -1,0 +1,46 @@
+h1{
+    background-color:#F473B9;
+    margin: auto;
+    text-align: center;
+    margin: 300px;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border-radius: 10%;
+    position: absolute;
+}
+
+body{
+    background-color: #F4FCD9;
+    animation: demo;
+    transition:2s ;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes demo {
+  
+        from {
+            background-color: #F4FCD9;
+        }
+        to {
+            background-color:orange;
+        }
+    
+}
+#button1{
+    margin-right: 600px;
+    margin-left: 600px;
+    background-color: aqua;
+    margin-top: 350px;
+    align-items: center;
+    position: relative;
+    padding: 2%;
+    border-radius: 200px;
+}
+.intro{
+    text-align: center;
+}
