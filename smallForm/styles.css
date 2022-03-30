@@ -1,0 +1,25 @@
+body{
+    background-color:#EFFFFD;
+    text-align: center;
+}
+
+form{
+    position: relative;
+    top:50px;
+}
+.formCenter{
+    background-color: aqua;
+    width:400px;
+    height:200px;
+    margin-top: 200px;
+    margin-left: 450px;
+
+}
+#name{
+    position:relative;
+    left:10px;
+}
+#age{
+    position:relative;
+    left:15px;
+}
