@@ -1,0 +1,15 @@
+body{
+    text-align:center;
+    background-color: rgb(147, 29, 202);
+    display:block;
+    align-items: center;
+    margin-top:300px;
+    padding:10px;
+   
+}
+#button{
+   margin-left: 100px;
+}
+#delay{
+    margin-right:10px;
+}
