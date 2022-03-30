@@ -1,25 +1,27 @@
-function validate(){
-    let username=document.getElementById("name").value;
-    let age=document.getElementById("age").value;
-    let password=document.getElementById("password").value;
-    
-    const alphareg=/^[A-Za-z ]+$/
-    const numreg=/^[0-9]+$/
-    const passwordreg=/^[A-Za-z0-9@#]$/
-    validateUsername(username,alphareg)
-    validateAge(age,numreg)
-    validatePassword(password,passwordreg)
-
-}
-function validateUsername(username,alphareg){
-      if(alphareg.test(username) == false)
-      alert("username should only contain alphabets");   
-}
-function validateAge(age,numreg){
-    if(numreg.test(age) == false)
-    alert("age should only contain numbers");
-}
-function validatePassword(password,passwordreg){
-    if(passwordreg.test(password) == false)
-    alert("password should only contain letters numbers special characters like #@ only ");
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="login.js" ></script>
+    <title>a simple form</title>
+</head>
+<body>
+    <div class="formCenter">
+     <form>
+         <label>Name</label>
+         <input type="text" placeholder="enter name"id="name" value=""><br>
+         <br>
+         <label>Age</label>
+         <input type="number" placeholder="enter age "id="age" value=""><br>
+         <br>
+         <label>Password</label>
+         <input type="password" placeholder="enter password"id="password" value=""><br>
+         <br>
+         <input type="button" value="submit" onclick="validate()"> 
+     </form>
+    </div>
+</body>
+</html>
