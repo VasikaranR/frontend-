@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <button id="btn" onclick="click()">click me</button>
+    <div id="content"></div>
+    <script>
+         function click(){
+          sessionStorage.setItem("name","VASI");
+          document.getElementById("content").innerHTML=sessionStorage.getItem("name");
+             
+         }
+
+    </script>
+</body>
+</html>
