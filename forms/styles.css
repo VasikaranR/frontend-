@@ -38,6 +38,13 @@ form{
 #Vstate{
     width: 100%;
 }
+#graduation{
+    width: 100%;
+}
+#practice{
+    width: 100%;
+}
+
 
 .form-group-basic{
     margin-bottom: 5px;
@@ -49,6 +56,12 @@ form{
     color:red;
 }
 .form-group-others.invalid span{
+    color:red;
+}
+.form-group-education.invalid span{
+    color:red;
+}
+.form-group-team.invalid span{
     color:red;
 }
 .education-button{
@@ -74,5 +87,9 @@ form{
     position: relative;
      left:100px;
      top:30px;
+ }
+ .sixthTab p{
+     color: crimson;
+    
  }
  
